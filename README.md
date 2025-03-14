@@ -1,5 +1,4 @@
 # Bem-vindo👋
-Este é um projeto sobre Calculadora criado com Expo.
 
 Este é um projeto sobre Calculadora criado com Expo. [Expo](https://expo.dev).
 
