@@ -1,7 +1,9 @@
 {
   "extends": "expo/tsconfig.base",
   "compilerOptions": {
-    "strict": true,
+    "strict": false, // Desativa verificações rigorosas de tipo
+    "allowJs": true, // Permite a compilação de arquivos JavaScript
+    "checkJs": false, // Desativa a verificação de tipos em arquivos JavaScript
     "paths": {
       "@/*": [
         "./*"
@@ -9,9 +11,12 @@
     }
   },
   "include": [
-    "**/*.ts",
-    "**/*.tsx",
-    ".expo/types/**/*.ts",
-    "expo-env.d.ts"
-, "Components/Calculadora.jsx"  ]
+    "**/*.js", // JavaScript
+    "**/*.jsx", // Arquivos JSX
+    ".expo/types/**/*.ts", // Tipos do Expo (se necessário)
+    "expo-env.d.ts", // definição de tipos 
+    "Components/Calculadora.jsx", // arquivos JavaScript/JSX
+    "Utils/Colors.js",
+    "Components/Button.js"
+  ]
 }
