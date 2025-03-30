@@ -1,6 +1,6 @@
 # Bem-vindo👋
 
-Este é um projeto sobre Calculadora criado com Expo. [Expo](https://expo.dev).
+Este é um projeto sobre Calculadora criado com [Expo](https://expo.dev).
 
 ## Como começar?
 
